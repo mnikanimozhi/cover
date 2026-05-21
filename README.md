@@ -182,7 +182,7 @@ is an inspiring story about ambition, hope, and determination. It follows the jo
 
 <p>
 
-    Kanimozhi K N is a passionate writer who enjoys creating inspiring stories. Through Dreams Beyond the Sky, the author encourages readers to dream big and believe in themselves.
+    Kanimozhi K N is a student passionate about learning, creativity, and exploring new possibilities.
 
 </p>
 
@@ -215,7 +215,7 @@ Printed in India
 
 ## OUTPUT:
 
-![alt text](<Screenshot 2026-05-19 224034.png>)
+![alt text](<Screenshot 2026-05-21 225748.png>)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
