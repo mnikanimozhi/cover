@@ -1,5 +1,5 @@
 # Ex.05 Book Front Cover Page Design
-## Date:19-05-2026
+## Date:22-05-2026
 
 ## AIM:
 To design a book front cover page using HTML and CSS.
@@ -35,187 +35,65 @@ Publish the website in the LocalHost.
 ```
 <!DOCTYPE html>
 <html>
-<head>
-<title>Book Cover</title>
+    <head>
+        <title>Book Cover</title>
 
-<style>
+        <style>
 
-body{
-    background:#e5e5e5;
-    font-family:Arial;
-}
+            body{
+                text-align:center;
+                background-color: whitesmoke;
+            }
 
-.book{
-    width:550px;
-    height:750px;
+            .cover{
+                width:300px;
+                height:500px;
+                background-color: skyblue;
+                color:white;
+                margin:auto;
+                border:2px solid white;
+                padding:80px;
+            }
 
-    margin:auto;
-    margin-top:20px;
+            img{
+                width:300px;
+                height:200px;
+                }
 
-    padding:40px;
+        </style>
 
-    border:2px solid #1565c0;
-    border-radius:10px;
+    </head>
 
-    background:#bfe6ff;
+    <body>
 
-    color:#333;
+        <div class="cover">
 
-    position:relative;
-}
+        <img src="Screenshot 2026-05-22 104316.png">
 
-h1{
-    color:#0d47a1;
-}
+        <h1>LIFE BEYOND EARTH</h1>
 
-hr{
-    border:1px solid #1565c0;
-}
+        <hr>
 
-.text{
-    font-size:18px;
-    line-height:32px;
-    text-align:justify;
-}
+        <h3>By</h3>
 
-mark{
-    background:yellow;
-}
+        <h2>Kanimozhi K N</h2><br>
 
-.quote{
-    margin-top:30px;
+        <p>
+            A book about space,
+            mysteries and life
+            outside Earth.
+        </p>
 
-    background:white;
+        </div>
 
-    padding:20px;
-
-    text-align:center;
-
-    font-style:italic;
-
-    color:#1e4fa5;
-
-    border-left:5px solid blue;
-}
-
-.author{
-    background:white;
-
-    padding:20px;
-
-    margin-top:40px;
-
-    border-radius:8px;
-}
-
-.author h3{
-    color:#0d47a1;
-}
-
-.author p{
-    line-height:28px;
-}
-
-.bottom{
-    background:#0d47a1;
-
-    color:white;
-
-    padding:15px;
-
-    border-radius:8px;
-
-    display:flex;
-
-    justify-content:space-between;
-
-    position:absolute;
-
-    bottom:30px;
-
-    left:40px;
-
-    right:40px;
-}
-
-.pub{
-    color:gold;
-    font-weight:bold;
-}
-
-.price{
-    color:gold;
-    font-size:24px;
-    font-weight:bold;
-}
-
-</style>
-
-</head>
-
-<body>
-
-<div class="book">
-
-<h1>About the Book</h1>
-
-<hr>
-
-<p class="text">
-
-This book
-<mark>"Dreams Beyond the Sky"</mark>
-
-is an inspiring story about ambition, hope, and determination. It follows the journey of a young dreamer who overcomes challenges and learns that every success begins with belief and courage.
-
-</p>
-
-<div class="quote">
-
-“Dreams grow where courage begins."
-
-</div>
-
-<div class="author">
-
-<h3>Kanimozhi K N</h3>
-
-<p>
-
-    Kanimozhi K N is a student passionate about learning, creativity, and exploring new possibilities.
-
-</p>
-
-</div>
-
-<!-- Price box INSIDE main book box -->
-<div class="bottom">
-
-<div>
-
-<div class="pub">
-SEC Publishers
-</div>
-
-Printed in India
-
-</div>
-
-<div class="price">
-₹399
-</div>
-
-</div>
-
-</div>
-
-</body>
+    </body>
 </html>
+
 ```
 
 ## OUTPUT:
 
-![alt text](<Screenshot 2026-05-21 225748.png>)
+![alt text](bookcover.png)
 
 ## RESULT:
 The program for designing book front cover page using HTML and CSS is completed successfully.
